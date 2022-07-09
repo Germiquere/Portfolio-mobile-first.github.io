@@ -74,11 +74,10 @@ h1,h2,h3,h4,h5,h6{
 }
 h2{
     font-size: var(--h2-font-size);
-    margin-bottom: var(--mb-0-50);
 }
 h3{
     font-size: var(--h3-font-size);
-    margin-bottom: var(--mb-0-25);
+    margin-bottom: var(--mb-1-5);
 }
 p{
     color: var(--p-color);
@@ -310,6 +309,7 @@ header div nav ul li a.li-contact::before{
     background-color: var(--about-me-color);
     text-align: center;
     z-index: 60;
+    /* height: 100vh; */
     
  }
  section.about-me article.container{
@@ -330,10 +330,13 @@ header div nav ul li a.li-contact::before{
  section.about-me h2{
     margin-bottom: var(--mb-2);
  }
+ .ection.about-me h3{
+    margin-bottom: var(--mb-3);
+ }
 section.about-me article div div.texts p{
         /* width: 100%; */
         line-height: 1.5;
-        margin-bottom: var(--mb-2);
+        margin-bottom: var(--mb-3);
 }
 section.about-me article div div.texts a{
     text-align: center;
