@@ -470,7 +470,7 @@ section.about-me article div div.texts a:hover::after{
 .footer-img svg{
     /* position: absolute; */
     position: relative;
-    bottom: -5px;
+    bottom: 0px;
     /* right:-30px; */
     /* position: static; */
     width: 100%;
