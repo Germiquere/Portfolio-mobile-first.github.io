@@ -139,6 +139,7 @@ header div nav{
     left: 0;
     width: 100%;
     background-color: var(--secondary-color);
+    box-shadow: 0px -2px 10px 0px rgba(0,0,0,0.39);
 }
 header div nav ul{
     display: flex;
@@ -470,7 +471,7 @@ section.about-me article div div.texts a:hover::after{
 .footer-img svg{
     /* position: absolute; */
     position: relative;
-    bottom: 0px;
+    bottom: -4px;
     /* right:-30px; */
     /* position: static; */
     width: 100%;
