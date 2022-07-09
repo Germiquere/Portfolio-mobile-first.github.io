@@ -310,6 +310,14 @@ header div nav ul li a.li-contact::before{
     background-color: var(--about-me-color);
     text-align: center;
     z-index: 60;
+    
+ }
+ section.about-me article.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
  }
  section.about-me article div.container-about-me-texts{
     width: 100%;
@@ -401,8 +409,8 @@ section.about-me article div div.texts a:hover::after{
     bottom: 0;
     left: 0;
     width: 100%;
-    /* height: calc(100vh - 50px) ; */
     height: 100vh;
+    /* height: 100vh; */
     background: var(--secondary-color);
     /* padding: 0px 20%; */
     display: flex;
@@ -512,6 +520,7 @@ section.about-me article div div.texts a:hover::after{
     position: static;
     width: auto;
     background-color: transparent;
+    box-shadow: none;
 }
 header nav ul li{
     position: relative;
@@ -590,7 +599,7 @@ main section.dark-banner::before{
 /* ======================SECTION 2=================== */
 
 section.about-me{
-    height: 100vh;
+    /* height: 100vh; */
 }
 section.about-me article{
     display: flex;
@@ -623,7 +632,8 @@ section.about-me article div.container-about-me-texts div.skills{
 }
 /* ======================SECTION 3=================== */
 .footer{
-    /* padding: 0px 20%; */
+    display: flex;
+    align-items: center;
     
 }
 .footer-container{
