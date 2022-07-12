@@ -501,7 +501,7 @@ section.about-me article div div.texts a:hover::after{
     }
 
 }
-@media screen and (orientation: landscape) and (max-width:400px){
+@media screen and (orientation: landscape) and (min-height:400px){
     .dark-banner article.container{
         height: 100%;
     }
