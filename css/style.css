@@ -501,17 +501,6 @@ section.about-me article div div.texts a:hover::after{
     }
 
 }
-@media screen and (orientation: landscape) and (min-height:400px){
-    .dark-banner article.container{
-        height: 100%;
-    }
-    section.about-me article.container{
-        height: 100%;
-    }
-    .footer{
-        height: 100%;
-    }
-}
 /* ======================768 MEDIA=================== */
 @media screen and (min-width: 768px) {
     :root {
